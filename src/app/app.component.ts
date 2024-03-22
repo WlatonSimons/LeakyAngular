@@ -33,7 +33,7 @@ export class AppComponent {
   }
 
   changeButton(): void {
-    const newControl = this.fb.control(''); // Create a new FormControl
+    const newControl = this.fb.control('');
     for(let i = 0; i < 1001; i++) {
       if(this.myForm.controls['textField']){
         this.myForm.removeControl('textField');
